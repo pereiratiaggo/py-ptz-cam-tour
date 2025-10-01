@@ -12,7 +12,7 @@ port = int(os.getenv('PTZ_CAM_PORT', 80))
 user = str(os.getenv('PTZ_CAM_USERNAME', 'username'))
 password = str(os.getenv('PTZ_CAM_PASSWORD', 'password'))
 
-timeout_global = int(os.getenv('PTZ_TIMEOUT_GLOBAL', 3600))
+timeout_global = int(os.getenv('PTZ_TIMEOUT_GLOBAL', 1800))
 timeout_to_next_preset = int(os.getenv('PTZ_TIMEOUT_TO_NEXT_PRESET', 60))
 timeout_to_first_exec = int(os.getenv('PTZ_TIMEOUT_TO_FIRST_EXEC', 300))
 
